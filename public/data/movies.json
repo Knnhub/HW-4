@@ -1,0 +1,57 @@
+[
+  {
+    "id": "batman",
+    "image": "https://m.media-amazon.com/images/M/MV5BMjkwZjI2NDQtNmEzMi00ZTJmLTlkYzAtNWI2NjI0NzAwODU2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "rating": 7.8,
+    "title": "The Batman"
+  },
+  {
+    "id": "sinners",
+    "image": "https://m.media-amazon.com/images/M/MV5BNTI0MDY5NDUtMzMwOC00YTY3LTlmOGQtZGNmNDFjNjAyNjI1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "rating": 7.7,
+    "title": "Sinners"
+  },
+  {
+    "id": "deadpool",
+    "image": "https://m.media-amazon.com/images/M/MV5BNjg0OTU4MTMtOTY4OS00NzU2LTgyMzQtZDA1YmQyMTY1OWI3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "rating": 8.0,
+    "title": "Deadpool"
+  },
+  {
+    "id": "avengers-infinity-war",
+    "image": "https://m.media-amazon.com/images/M/MV5BNjMxMjVmODAtN2I5OC00Njc0LWI5MzktNWQ1NmJlNzZmNDVkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "rating": 8.4,
+    "title": "Avengers: Infinity War"
+  },
+  {
+    "id": "interstellar",
+    "image": "https://m.media-amazon.com/images/M/MV5BNTY2MTcwMzYwNF5BMl5BanBnXkFtZTgwMDUyNzEzOTE@._V1_FMjpg_UX1000_.jpg",
+    "rating": 8.7,
+    "title": "Interstellar"
+  },
+  {
+    "id": "black-panther",
+    "image": "https://m.media-amazon.com/images/M/MV5BZTJjYzUzNjMtYjUzNC00YWIzLWE0MDMtNmQ4ZmNkM2YxMTIxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "rating": 7.3,
+    "title": "Black Panther"
+  },
+
+  {
+    "id": "fantastic-four",
+    "image": "https://www.superherohype.com/wp-content/uploads/sites/4/2025/07/download-2025-07-25T143250.610.jpg?w=1024",
+    "rating": 7.5,
+    "title": "Fantastic Four"
+  },
+  {
+    "id": "doctor-strange",
+    "image": "https://cms.dmpcdn.com/moviearticle/2022/04/27/e746f5a0-c5e6-11ec-87b5-955ce697a35c_original.jpeg",
+    "rating": 7.6,
+    "title": "Doctor Strange"
+  },
+  {
+    "id": "superman",
+    "image": "https://editorial.rottentomatoes.com/wp-content/uploads/2024/05/EWKA_Superman-Rep3.jpg?w=600",
+    "rating": 8.1,
+    "title": "Superman"
+  }
+]

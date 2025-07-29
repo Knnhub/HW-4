@@ -1,0 +1,13 @@
+<!-- <app-header></app-header> -->
+<p>member works!</p>
+<button routerLink="/member/list">List Members</button>
+<button routerLink="/member/profile">Member Profile</button>
+<button routerLink="/member/list/">List Member(Program)</button>
+<button routerLink="/member/profile">Member Profile(program)</button>
+<button routerLink="/member/test" [queryParams]="{name:'Aj.Pang'}">Test QueryParams</button>
+<button (click)="sendParams()">Test QueryParams (Program)</button>
+<button (click)="addMember()">Add Member</button>
+<button (click)="addMemberSession()">Add Member Session</button>
+<button (click)="addMemberLocalStorage()">Add Member LocalStorage</button>
+<router-outlet></router-outlet>
+

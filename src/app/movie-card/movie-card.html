@@ -1,0 +1,25 @@
+<div class="movie-card" (click)="goToDetails()">
+  <div class="poster-container">
+    <img [src]="movie.image" [alt]="movie.title" class="movie-poster">
+    <div class="add-to-watchlist">
+      <i class="fas fa-plus"></i>
+    </div>
+  </div>
+  <div class="movie-info">
+    <div class="rating">
+      <i class="fas fa-star"></i> {{ movie.rating }}
+    </div>
+    <h4 class="movie-title">{{ movie.title }}</h4>
+    <button class="watchlist-button">
+      <i class="fas fa-bookmark"></i> Watchlist
+    </button>
+    <div class="action-buttons">
+      <button class="trailer-button">
+        <i class="fas fa-play"></i> Trailer
+      </button>
+      <button class="info-button">
+        <i class="fas fa-info-circle"></i>
+      </button>
+    </div>
+  </div>
+</div>

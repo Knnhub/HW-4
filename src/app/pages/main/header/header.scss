@@ -1,0 +1,82 @@
+/* src/app/header/header.component.css */
+.imdb-header {
+  background-color: #1a1a1a; /* สีพื้นหลังคล้าย IMDb */
+  padding: 10px 20px;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px; /* กำหนดความกว้างสูงสุดของเนื้อหา */
+  margin: 0 auto; /* จัดให้อยู่ตรงกลาง */
+}
+
+.logo img {
+  height: 30px; /* ปรับขนาดโลโก้ */
+  cursor: pointer;
+}
+
+.logo h1 {
+  font-size: 24px;
+  color: #f5c518; /* สีทองของ IMDb */
+  margin: 0;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  flex-grow: 1; /* ให้ช่องค้นหามีพื้นที่มากขึ้น */
+  margin: 0 20px; /* ระยะห่างจากโลโก้และ navigation */
+  max-width: 600px; /* จำกัดความกว้างของ search bar */
+  position: relative; /* สำหรับตำแหน่งของ icon */
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 8px 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #333;
+  color: #fff;
+  font-size: 16px;
+  padding-right: 40px; /* เผื่อที่สำหรับปุ่มค้นหา */
+}
+
+.search-bar input::placeholder {
+  color: #bbb;
+}
+
+.search-button {
+  background: none;
+  border: none;
+  color: #f5c518; /* สีทอง */
+  cursor: pointer;
+  font-size: 18px;
+  position: absolute;
+  right: 10px; /* จัดตำแหน่งปุ่มค้นหา */
+}
+
+.main-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px; /* ระยะห่างระหว่างลิงก์ */
+}
+
+.main-nav li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 15px;
+  transition: color 0.3s ease;
+}
+
+.main-nav li a:hover {
+  color: #f5c518; /* สีทองเมื่อ hover */
+}
+
