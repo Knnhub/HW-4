@@ -2,14 +2,14 @@ import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { Main } from './pages/main/main';
 import { Header } from './pages/main/header/header';
-import { HttpClientModule } from '@angular/common/http';
-import { BrowserModule } from '@angular/platform-browser';
+// import { HttpClientModule } from '@angular/common/http';
+// import { BrowserModule } from '@angular/platform-browser';
 
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Main,Header,BrowserModule,
-    HttpClientModule ],
+  standalone: true, 
+  imports: [RouterOutlet, Main,Header ],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })

@@ -1,10 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 import { Header } from './header/header';
 import { HttpClient } from '@angular/common/http';
+import { MovieCardComponent } from '../../movie-card/movie-card';
 
 @Component({
   selector: 'app-main',
-  imports: [Header],
+  standalone: true,
+  imports: [Header, MovieCardComponent],
   templateUrl: './main.html',
   styleUrl: './main.scss'
 })

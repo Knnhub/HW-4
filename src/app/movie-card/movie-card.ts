@@ -3,8 +3,9 @@ import { Router } from '@angular/router'; // เพิ่ม Router
 
 @Component({
   selector: 'app-movie-card',
-  templateUrl: './movie-card.component.html',
-  styleUrls: ['./movie-card.component.scss'] // ใช้ scss ตามที่คุณตั้งค่าใน angular.json
+  standalone: true, // ใช้ standalone component
+  templateUrl: './movie-card.html',
+  styleUrls: ['./movie-card.scss'] // ใช้ scss ตามที่คุณตั้งค่าใน angular.json
 })
 export class MovieCardComponent implements OnInit {
   @Input() movie: any; // รับข้อมูลหนังเข้ามาเป็น Input

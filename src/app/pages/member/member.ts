@@ -1,12 +1,12 @@
 import { Component, inject } from '@angular/core';
-import { Header } from '../main/header/header';
+// import { Header } from '../main/header/header';
 import { Router, RouterModule } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { Member as MemberData } from '../../service/appdata'; // Assuming MemberData is defined in appdata.ts
 import { AppdataService } from '../../service/appdata'; // Import the service to manage members
 @Component({
   selector: 'app-member',
-  imports: [Header,RouterModule,CommonModule],
+  imports: [RouterModule,CommonModule],
   templateUrl: './member.html',
   styleUrl: './member.scss',
   standalone: true
