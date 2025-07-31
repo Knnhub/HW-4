@@ -1,0 +1,18 @@
+<div *ngIf="actor" class="actor-detail-container">
+  <div class="actor-header">
+    <img [src]="actor.image" [alt]="actor.name" class="actor-photo-large">
+    <div class="actor-info-header">
+      <h1>{{ actor.name }}</h1>
+      <p class="actor-bio">{{ actor.bio }}</p>
+      <p class="actor-meta">
+        **Born:** {{ actor.birthDate }}<br>
+        **Known For:** {{ actor.knownFor.join(', ') }}
+      </p>
+      <button class="back-button" (click)="goBack()"><i class="fas fa-arrow-left"></i> Back</button>
+    </div>
+  </div>
+</div>
+
+<div *ngIf="!actor" class="loading-message">
+  Loading actor details...
+</div>

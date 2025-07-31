@@ -1,0 +1,111 @@
+[
+  {
+    "id": "batman",
+    "title": "The Batman",
+    "description": "When the Riddler, a sadistic serial killer, begins murdering key political figures in Gotham, Batman is forced to investigate the city's hidden corruption and question his family's involvement.",
+    "image": "images/batman.avif",
+    "rating": 7.8,
+    "genre": ["Action", "Crime", "Drama"],
+    "director": "Matt Reeves",
+    "cast": [
+      {"id": "robert-pattinson", "name": "Robert Pattinson", "role": "Batman", "image": "images/actors/robert-pattinson.jpg"},
+      {"id": "zoe-kravitz", "name": "Zoë Kravitz", "role": "Catwoman", "image": "images/actors/zoe-kravitz.jpg"}
+    ]
+  },
+  {
+    "id": "sinners",
+    "title": "Sinners",
+    "description": "A gripping drama about redemption and the dark secrets of a small town.",
+    "image": "images/sinners.jpg",
+    "rating": 7.7,
+    "genre": ["Drama", "Thriller"],
+    "director": "Jane Doe",
+    "cast": [
+      {"id": "john-doe", "name": "John Doe", "role": "Protagonist", "image": "images/actors/john-doe.jpg"}
+    ]
+  },
+  {
+    "id": "deadpool",
+    "title": "Deadpool",
+    "description": "A fast-talking mercenary with a morbid sense of humor is subjected to a rogue experiment that leaves him with accelerated healing powers and a scarred face, and adopts the alter ego Deadpool.",
+    "image": "images/deadpool.jpg",
+    "rating": 8.0,
+    "genre": ["Action", "Comedy", "Sci-Fi"],
+    "director": "Tim Miller",
+    "cast": [
+      {"id": "ryan-reynolds", "name": "Ryan Reynolds", "role": "Deadpool", "image": "images/actors/ryan-reynolds.jpg"}
+    ]
+  },
+  {
+    "id": "avengers-infinity-war",
+    "title": "Avengers: Infinity War",
+    "description": "The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.",
+    "image": "images/avengers-infinity-war.jpg",
+    "rating": 8.4,
+    "genre": ["Action", "Adventure", "Sci-Fi"],
+    "director": "Anthony Russo, Joe Russo",
+    "cast": [
+      {"id": "robert-downey-jr", "name": "Robert Downey Jr.", "role": "Iron Man", "image": "images/actors/robert-downey-jr.jpg"},
+      {"id": "chris-hemsworth", "name": "Chris Hemsworth", "role": "Thor", "image": "images/actors/chris-hemsworth.jpg"}
+    ]
+  },
+  {
+    "id": "interstellar",
+    "title": "Interstellar",
+    "description": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+    "image": "images/interstellar.jpg",
+    "rating": 8.7,
+    "genre": ["Adventure", "Drama", "Sci-Fi"],
+    "director": "Christopher Nolan",
+    "cast": [
+      {"id": "matthew-mcconaughey", "name": "Matthew McConaughey", "role": "Cooper", "image": "images/actors/matthew-mcconaughey.jpg"}
+    ]
+  },
+  {
+    "id": "black-panther",
+    "title": "Black Panther",
+    "description": "T'Challa, heir to the hidden but advanced kingdom of Wakanda, must step forward to lead his people into a new future and confront a past that puts his nation and the entire world at risk.",
+    "image": "images/black-panther.jpg",
+    "rating": 7.3,
+    "genre": ["Action", "Adventure", "Sci-Fi"],
+    "director": "Ryan Coogler",
+    "cast": [
+      {"id": "chadwick-boseman", "name": "Chadwick Boseman", "role": "Black Panther", "image": "images/actors/chadwick-boseman.jpg"}
+    ]
+  },
+
+  {
+    "id": "fantastic-four",
+    "title": "Fantastic Four",
+    "description": "A group of astronauts gain superpowers after a cosmic radiation exposure and must use their abilities to save the world.",
+    "image": "https://www.superherohype.com/wp-content/uploads/sites/4/2025/07/download-2025-07-25T143250.610.jpg?w=1024",
+    "rating": 7.5,
+    "genre": ["Action", "Adventure", "Sci-Fi"],
+    "director": "John Doe",
+    "cast": [
+      {"id": "johnny-storm", "name": "Johnny Storm", "role": "Human Torch", "image": "images/actors/johnny-storm.jpg"}
+    ]
+  },
+  {
+    "id": "doctor-strange",
+    "title": "Doctor Strange",
+    "description": "After a car accident, a brilliant but arrogant surgeon discovers the hidden world of magic and alternate dimensions.",
+    "image": "https://cms.dmpcdn.com/moviearticle/2022/04/27/e746f5a0-c5e6-11ec-87b5-955ce697a35c_original.jpeg",
+    "rating": 7.6,
+    "genre": ["Action", "Adventure", "Fantasy"],
+    "director": "Scott Derrickson",
+    "cast": [
+      {"id": "benedict-cumberbatch", "name": "Benedict Cumberbatch", "role": "Doctor Strange", "image": "images/actors/benedict-cumberbatch.jpg"}
+    ]
+  },
+  {
+    "id": "superman",
+    "title": "Superman",
+    "description": "An alien orphan is sent from his dying planet to Earth, where he grows up to become his adoptive home's first and greatest superhero.",
+    "image": "https://editorial.rottentomatoes.com/wp-content/uploads/2024/05/EWKA_Superman-Rep3.jpg?w=600",
+    "rating": 8.1,
+    "genre": ["Action", "Adventure", "Sci-Fi"],
+    "director": "",
+    "cast": []
+  }
+]   

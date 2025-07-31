@@ -9,7 +9,7 @@ import { Header } from './pages/main/header/header';
 @Component({
   selector: 'app-root',
   standalone: true, 
-  imports: [RouterOutlet, Main,Header ],
+  imports: [RouterOutlet, Header ],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })

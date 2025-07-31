@@ -1,0 +1,31 @@
+<div *ngIf="movie" class="movie-detail-container">
+  <div class="movie-header">
+    <img [src]="movie.image" [alt]="movie.title" class="movie-poster-large">
+    <div class="movie-info-header">
+      <h1>{{ movie.title }} ({{ movie.rating }}/10)</h1>
+      <p class="movie-meta">
+        {{ movie.genre.join(', ') }} | Directed by {{ movie.director }}
+      </p>
+      <p class="movie-description">{{ movie.description }}</p>
+      <div class="action-buttons">
+        <button class="watchlist-button"><i class="fas fa-bookmark"></i> Add to Watchlist</button>
+        <button class="trailer-button"><i class="fas fa-play"></i> Watch Trailer</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="cast-section">
+    <h2>Top Cast</h2>
+    <div class="cast-list">
+      <div *ngFor="let actor of movie.cast" class="actor-card" (click)="goToActorDetails(actor.id)">
+        <img [src]="actor.image" [alt]="actor.name" class="actor-photo">
+        <span class="actor-name">{{ actor.name }}</span>
+        <span class="actor-role">{{ actor.role }}</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div *ngIf="!movie" class="loading-message">
+  Loading movie details...
+</div>

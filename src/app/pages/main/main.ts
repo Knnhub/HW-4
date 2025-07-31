@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Header } from './header/header';
+// import { Header } from './header/header';
 import { HttpClient } from '@angular/common/http';
 import { MovieCardComponent } from '../../movie-card/movie-card';
 import { CommonModule } from '@angular/common';
@@ -7,7 +7,7 @@ import { CommonModule } from '@angular/common';
 @Component({
   selector: 'app-main',
   standalone: true,
-  imports: [Header, MovieCardComponent, CommonModule],
+  imports: [ MovieCardComponent, CommonModule],
   templateUrl: './main.html',
   styleUrl: './main.scss'
 })

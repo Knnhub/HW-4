@@ -1,0 +1,66 @@
+[
+  {
+    "id": "robert-pattinson",
+    "name": "Robert Pattinson",
+    "bio": "Robert Douglas Thomas Pattinson is an English actor. Known for his roles in both blockbuster and independent films, he has featured in the Forbes Celebrity 100 list. Time magazine named him one of the 100 most influential people in the world.",
+    "image": "images/actors/robert-pattinson.jpg",
+    "birthDate": "May 13, 1986",
+    "knownFor": ["The Batman", "Twilight", "Tenet"]
+  },
+  {
+    "id": "zoe-kravitz",
+    "name": "Zoë Kravitz",
+    "bio": "Zoë Isabella Kravitz is an American actress, singer, and model. The daughter of actor-musician Lenny Kravitz and actress Lisa Bonet, she made her acting debut in the romantic comedy film No Reservations (2007).",
+    "image": "images/actors/zoe-kravitz.jpg",
+    "birthDate": "December 1, 1988",
+    "knownFor": ["The Batman", "Big Little Lies", "Mad Max: Fury Road"]
+  },
+  {
+    "id": "john-doe",
+    "name": "John Doe",
+    "bio": "A versatile actor known for his compelling performances in various genres.",
+    "image": "images/actors/john-doe.jpg",
+    "birthDate": "January 1, 1980",
+    "knownFor": ["Sinners", "Mystery Film A"]
+  },
+  {
+    "id": "ryan-reynolds",
+    "name": "Ryan Reynolds",
+    "bio": "Ryan Rodney Reynolds is a Canadian actor. Known for his work in comedies and action films, he has starred in films such as National Lampoon's Van Wilder (2002), Waiting... (2005), and Deadpool (2016).",
+    "image": "images/actors/ryan-reynolds.jpg",
+    "birthDate": "October 23, 1976",
+    "knownFor": ["Deadpool", "Free Guy", "The Hitman's Bodyguard"]
+  },
+  {
+    "id": "robert-downey-jr",
+    "name": "Robert Downey Jr.",
+    "bio": "Robert John Downey Jr. is an American actor. His career has been characterized by critical and popular success in his youth, followed by a period of substance abuse and legal troubles, and a resurgence of commercial success in middle age.",
+    "image": "images/actors/robert-downey-jr.jpg",
+    "birthDate": "April 4, 1965",
+    "knownFor": ["Avengers: Infinity War", "Iron Man", "Sherlock Holmes"]
+  },
+  {
+    "id": "chris-hemsworth",
+    "name": "Chris Hemsworth",
+    "bio": "Christopher Hemsworth is an Australian actor. He rose to prominence playing Kim Hyde in the Australian television series Home and Away (2004–2007) before embarking on a film career in Hollywood.",
+    "image": "images/actors/chris-hemsworth.jpg",
+    "birthDate": "August 11, 1983",
+    "knownFor": ["Avengers: Infinity War", "Thor", "Men in Black: International"]
+  },
+  {
+    "id": "matthew-mcconaughey",
+    "name": "Matthew McConaughey",
+    "bio": "Matthew David McConaughey is an American actor. He first gained notice for his supporting performance in the coming-of-age comedy Dazed and Confused (1993).",
+    "image": "images/actors/matthew-mcconaughey.jpg",
+    "birthDate": "November 4, 1969",
+    "knownFor": ["Interstellar", "Dallas Buyers Club", "True Detective"]
+  },
+  {
+    "id": "chadwick-boseman",
+    "name": "Chadwick Boseman",
+    "bio": "Chadwick Aaron Boseman was an American actor. During his career, Boseman was honored with two Screen Actors Guild Awards, a Critics' Choice Movie Award, a Golden Globe Award, and a Primetime Emmy Award.",
+    "image": "images/actors/chadwick-boseman.jpg",
+    "birthDate": "November 29, 1976",
+    "knownFor": ["Black Panther", "42", "Get On Up"]
+  }
+]

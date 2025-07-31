@@ -1,22 +1,25 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { Router } from '@angular/router'; // เพิ่ม Router
+import { Router } from '@angular/router'; // <--- ต้อง import Router
+import { CommonModule } from '@angular/common'; // <--- สำหรับ *ngIf, *ngFor (ถ้าใช้ใน template ของ movie-card)
+// สำหรับ RouterLink ใน template ถ้าใช้ [routerLink] ต้อง import RouterModule ด้วย
 
 @Component({
   selector: 'app-movie-card',
-  standalone: true, // ใช้ standalone component
+  standalone: true,
+  imports: [CommonModule], // <--- เพิ่ม CommonModule ถ้ามี *ngIf, *ngFor ใน movie-card.html
   templateUrl: './movie-card.html',
-  styleUrls: ['./movie-card.scss'] // ใช้ scss ตามที่คุณตั้งค่าใน angular.json
+  styleUrls: ['./movie-card.scss']
 })
 export class MovieCardComponent implements OnInit {
-  @Input() movie: any; // รับข้อมูลหนังเข้ามาเป็น Input
+  @Input() movie: any;
 
-  constructor(private router: Router) { } // Inject Router
+  constructor(private router: Router) { } // <--- Inject Router
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void { }
 
-  // เมื่อคลิกที่การ์ด ให้ไปที่หน้ารายละเอียด (ยังไม่มีหน้านั้น แต่เตรียมไว้)
   goToDetails(): void {
-    this.router.navigate(['/movie-details', this.movie.id]);
+    if (this.movie && this.movie.id) {
+      this.router.navigate(['/movie-details', this.movie.id]); // <--- พาธที่เชื่อมไปยังหน้ารายละเอียดหนัง
+    }
   }
 }
