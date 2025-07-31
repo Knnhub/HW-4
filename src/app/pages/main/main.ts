@@ -2,17 +2,18 @@ import { Component, OnInit } from '@angular/core';
 import { Header } from './header/header';
 import { HttpClient } from '@angular/common/http';
 import { MovieCardComponent } from '../../movie-card/movie-card';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-main',
   standalone: true,
-  imports: [Header, MovieCardComponent],
+  imports: [Header, MovieCardComponent, CommonModule],
   templateUrl: './main.html',
   styleUrl: './main.scss'
 })
 export class Main implements OnInit {
   movies: any[] = []; // เก็บข้อมูลหนัง
-
+  
   constructor(private http: HttpClient) { } // Inject HttpClient
 
   ngOnInit(): void {

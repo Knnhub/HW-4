@@ -1,6 +1,3 @@
-<!-- <app-header></app-header> -->
-<!-- <p>main works!</p> -->
-
 <div class="landing-page-container">
   <main class="main-content-area">
     <section class="video-section">
@@ -83,15 +80,10 @@
 
     <section class="featured-today-section">
       <h3>Featured today <i class="fas fa-chevron-right"></i></h3>
-      <div class="content-carousel">
-        </div>
+      <div class="movie-cards-grid">
+        <app-movie-card *ngFor="let movie of movies" [movie]="movie"></app-movie-card>
+      </div>
     </section>
 
-    </main>
-    
-    <section class="featured-today-section">
-  <h3>Featured today <i class="fas fa-chevron-right"></i></h3>
-  <div class="movie-cards-grid"> <app-movie-card *ngFor="let movie of movies" [movie]="movie"></app-movie-card>
-  </div>
-</section>
+  </main>
 </div>

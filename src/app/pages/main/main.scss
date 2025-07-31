@@ -217,15 +217,57 @@
   font-size: 20px;
 }
 
-.content-carousel {
-  /* คุณจะใส่โค้ดสำหรับ carousel ของการ์ดหนังตรงนี้ */
-  display: flex;
-  overflow-x: auto; /* ทำให้เลื่อนได้ถ้ามีหลายการ์ด */
-  gap: 15px;
-  padding-bottom: 15px; /* เผื่อพื้นที่สำหรับ scrollbar */
+.featured-today-section {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  overflow: hidden; /* เพิ่มเพื่อให้เกิดการเลื่อน */
+  padding-bottom: 20px; /* เพิ่มพื้นที่ด้านล่างสำหรับการเลื่อน */
 }
 
-/* Responsive adjustments */
+.featured-today-section h3 {
+  color: #f5c518;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.featured-today-section h3 i {
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+/* ---------------------------------------------------------------------- */
+/* สไตล์สำหรับ Movie Cards Grid - ต้องอยู่นอก Media Query หลักนี้ */
+/* ---------------------------------------------------------------------- */
+.movie-cards-grid {
+  display: flex; /* จัดเรียงการ์ดในแนวนอน */
+  flex-direction: row; /* ให้เรียงจากซ้ายไปขวา */
+  gap: 32px; /* ระยะห่างระหว่างการ์ด (ปรับได้ตามต้องการ) */
+  padding: 16px; /* เพิ่ม padding ภายใน grid (ปรับได้ตามต้องการ) */
+  overflow-x: auto; /* อนุญาตให้เลื่อนในแนวนอน */
+  scroll-snap-type: x mandatory; /* ทำให้การเลื่อนหยุดที่แต่ละการ์ด */
+  -webkit-overflow-scrolling: touch; /* สำหรับ iOS เพื่อการเลื่อนที่ลื่นไหล */
+}
+
+app-movie-card {
+  flex: 0 0 calc(100% / 6 - 16px); /* กำหนดขนาดให้แต่ละการ์ด (100% หารด้วย 6 ลบระยะห่าง) */
+  scroll-snap-align: start; /* ให้แต่ละการ์ด snap ไปที่จุดเริ่มต้น */
+  width: calc(100% / 6 - 16px); /* กำหนดความกว้าง */
+  box-sizing: border-box; /* รวม padding และ border ใน width */
+}
+
+/* ---------------------------------------------------------------------- */
+/* Responsive adjustments - Media Queries ควรอยู่ด้านนอกและครอบคลุมเฉพาะการปรับแต่ง */
+/* ---------------------------------------------------------------------- */
+@media (max-width: 992px) {
+  .movie-cards-grid {
+    scroll-snap-type: x proximity; /* เปลี่ยนเป็น proximity เมื่อหน้าจอเล็กลง */
+  }
+  app-movie-card {
+    flex: 0 0 calc(100% / 3 - 16px); /* แสดง 3 การ์ดบนหน้าจอขนาดกลาง */
+    width: calc(100% / 3 - 16px);
+  }
+}
+
 @media (max-width: 768px) {
   .video-section {
     flex-direction: column; /* วางซ้อนกันเมื่อหน้าจอเล็ก */
@@ -242,4 +284,18 @@
     align-items: center;
     text-align: center;
   }
+
+  /* ปรับแต่งสำหรับ 768px */
+  app-movie-card {
+    flex: 0 0 calc(50% - 16px); /* แสดง 2 การ์ดบนหน้าจอขนาดเล็ก */
+    width: calc(50% - 16px);
+  }
+}
+
+@media (max-width: 576px) {
+  app-movie-card {
+    flex: 0 0 100%; /* แสดง 1 การ์ดต่อแถวบนหน้าจอที่เล็กที่สุด */
+    width: 100%;
+  }
+
 }
