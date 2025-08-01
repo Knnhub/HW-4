@@ -9,19 +9,19 @@
     "director": "Matt Reeves",
     "cast": [
       {"id": "robert-pattinson", "name": "Robert Pattinson", "role": "Batman", "image": "images/actors/robert-pattinson.jpg"},
-      {"id": "zoe-kravitz", "name": "Zoë Kravitz", "role": "Catwoman", "image": "images/actors/zoe-kravitz.jpg"}
+      {"id": "zoe-kravitz", "name": "Zoë Kravitz", "role": "Catwoman", "image": "images/actors/zoe-kravitz.webp"}
     ]
   },
   {
     "id": "sinners",
     "title": "Sinners",
     "description": "A gripping drama about redemption and the dark secrets of a small town.",
-    "image": "images/sinners.jpg",
+    "image": "images/sinner.jpg",
     "rating": 7.7,
     "genre": ["Drama", "Thriller"],
     "director": "Jane Doe",
     "cast": [
-      {"id": "john-doe", "name": "John Doe", "role": "Protagonist", "image": "images/actors/john-doe.jpg"}
+      {"id": "michael b jordan", "name": "michael b jordan", "role": "Protagonist", "image": "images/actors/michael b jordan.jpg"}
     ]
   },
   {
@@ -40,7 +40,7 @@
     "id": "avengers-infinity-war",
     "title": "Avengers: Infinity War",
     "description": "The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.",
-    "image": "images/avengers-infinity-war.jpg",
+    "image": "images/avengers.jpg",
     "rating": 8.4,
     "genre": ["Action", "Adventure", "Sci-Fi"],
     "director": "Anthony Russo, Joe Russo",
@@ -53,12 +53,12 @@
     "id": "interstellar",
     "title": "Interstellar",
     "description": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
-    "image": "images/interstellar.jpg",
+    "image": "images/interstalar.jpg",
     "rating": 8.7,
     "genre": ["Adventure", "Drama", "Sci-Fi"],
     "director": "Christopher Nolan",
     "cast": [
-      {"id": "matthew-mcconaughey", "name": "Matthew McConaughey", "role": "Cooper", "image": "images/actors/matthew-mcconaughey.jpg"}
+      {"id": "matthew-mcconaughey", "name": "Matthew McConaughey", "role": "Cooper", "image": "images/actors/matthew-mcconaughey.png"}
     ]
   },
   {
@@ -78,12 +78,12 @@
     "id": "fantastic-four",
     "title": "Fantastic Four",
     "description": "A group of astronauts gain superpowers after a cosmic radiation exposure and must use their abilities to save the world.",
-    "image": "https://www.superherohype.com/wp-content/uploads/sites/4/2025/07/download-2025-07-25T143250.610.jpg?w=1024",
+    "image": "images/fantastic-4.avif",
     "rating": 7.5,
     "genre": ["Action", "Adventure", "Sci-Fi"],
     "director": "John Doe",
     "cast": [
-      {"id": "johnny-storm", "name": "Johnny Storm", "role": "Human Torch", "image": "images/actors/johnny-storm.jpg"}
+      {"id": "pedro-pascal", "name": "pedro pascal", "role": "reed richards", "image": "images/actors/pedro-pascal.jpg"}
     ]
   },
   {

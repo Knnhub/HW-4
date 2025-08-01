@@ -4,31 +4,31 @@
     "name": "Robert Pattinson",
     "bio": "Robert Douglas Thomas Pattinson is an English actor. Known for his roles in both blockbuster and independent films, he has featured in the Forbes Celebrity 100 list. Time magazine named him one of the 100 most influential people in the world.",
     "image": "images/actors/robert-pattinson.jpg",
-    "birthDate": "May 13, 1986",
+    "birthDate": "May 13, 1986, Age: 37",
     "knownFor": ["The Batman", "Twilight", "Tenet"]
   },
   {
     "id": "zoe-kravitz",
     "name": "Zoë Kravitz",
     "bio": "Zoë Isabella Kravitz is an American actress, singer, and model. The daughter of actor-musician Lenny Kravitz and actress Lisa Bonet, she made her acting debut in the romantic comedy film No Reservations (2007).",
-    "image": "images/actors/zoe-kravitz.jpg",
-    "birthDate": "December 1, 1988",
+    "image": "images/actors/zoe-kravitz.webp",
+    "birthDate": "December 1, 1988, Age: 34",
     "knownFor": ["The Batman", "Big Little Lies", "Mad Max: Fury Road"]
   },
   {
-    "id": "john-doe",
-    "name": "John Doe",
+    "id": "michael b jordan",
+    "name": "michael b jordan",
     "bio": "A versatile actor known for his compelling performances in various genres.",
-    "image": "images/actors/john-doe.jpg",
-    "birthDate": "January 1, 1980",
-    "knownFor": ["Sinners", "Mystery Film A"]
+    "image": "images/actors/michael b jordan.jpg",
+    "birthDate": "February 9, 1987, Age: 36",
+    "knownFor": ["Sinners", "Black Panther"]
   },
   {
     "id": "ryan-reynolds",
     "name": "Ryan Reynolds",
     "bio": "Ryan Rodney Reynolds is a Canadian actor. Known for his work in comedies and action films, he has starred in films such as National Lampoon's Van Wilder (2002), Waiting... (2005), and Deadpool (2016).",
     "image": "images/actors/ryan-reynolds.jpg",
-    "birthDate": "October 23, 1976",
+    "birthDate": "October 23, 1976, Age: 47",
     "knownFor": ["Deadpool", "Free Guy", "The Hitman's Bodyguard"]
   },
   {
@@ -36,7 +36,7 @@
     "name": "Robert Downey Jr.",
     "bio": "Robert John Downey Jr. is an American actor. His career has been characterized by critical and popular success in his youth, followed by a period of substance abuse and legal troubles, and a resurgence of commercial success in middle age.",
     "image": "images/actors/robert-downey-jr.jpg",
-    "birthDate": "April 4, 1965",
+    "birthDate": "April 4, 1965, Age: 58",
     "knownFor": ["Avengers: Infinity War", "Iron Man", "Sherlock Holmes"]
   },
   {
@@ -44,15 +44,15 @@
     "name": "Chris Hemsworth",
     "bio": "Christopher Hemsworth is an Australian actor. He rose to prominence playing Kim Hyde in the Australian television series Home and Away (2004–2007) before embarking on a film career in Hollywood.",
     "image": "images/actors/chris-hemsworth.jpg",
-    "birthDate": "August 11, 1983",
+    "birthDate": "August 11, 1983, Age: 40",
     "knownFor": ["Avengers: Infinity War", "Thor", "Men in Black: International"]
   },
   {
     "id": "matthew-mcconaughey",
     "name": "Matthew McConaughey",
     "bio": "Matthew David McConaughey is an American actor. He first gained notice for his supporting performance in the coming-of-age comedy Dazed and Confused (1993).",
-    "image": "images/actors/matthew-mcconaughey.jpg",
-    "birthDate": "November 4, 1969",
+    "image": "images/actors/matthew-mcconaughey.png",
+    "birthDate": "November 4, 1969, Age: 53",
     "knownFor": ["Interstellar", "Dallas Buyers Club", "True Detective"]
   },
   {
@@ -60,7 +60,32 @@
     "name": "Chadwick Boseman",
     "bio": "Chadwick Aaron Boseman was an American actor. During his career, Boseman was honored with two Screen Actors Guild Awards, a Critics' Choice Movie Award, a Golden Globe Award, and a Primetime Emmy Award.",
     "image": "images/actors/chadwick-boseman.jpg",
-    "birthDate": "November 29, 1976",
+    "birthDate": "November 29, 1976 - August 28, 2020",
     "knownFor": ["Black Panther", "42", "Get On Up"]
+  },
+
+  {
+    "id": "benedict-cumberbatch",
+    "name": "Benedict Cumberbatch",
+    "bio": "Benedict Timothy Carlton Cumberbatch is an English actor. He has received various accolades, including a Primetime Emmy Award, a British Academy Television Award, and a Laurence Olivier Award.",
+    "image": "images/actors/benedict-cumberbatch.jpg",
+    "birthDate": "July 19, 1976, Age: 47",
+    "knownFor": ["Doctor Strange", "Sherlock", "The Imitation Game"]
+  },
+  {
+    "id": "henry-cavill",
+    "name": "Henry Cavill",
+    "bio": "Henry William Dalgliesh Cavill is a British actor. He is best known for his role as Superman in the DC Extended Universe and Geralt of Rivia in the Netflix series The Witcher.",
+    "image": "images/actors/henry-cavill.jpg",
+    "birthDate": "May 5, 1983, Age: 40",
+    "knownFor": ["Superman", "The Witcher", "Mission: Impossible – Fallout"]
+  },
+  {
+  "id": "pedro-pascal",
+  "name": "Pedro Pascal",
+  "bio": "José Pedro Balmaceda Pascal is a Chilean-born American actor. He is known for portraying paternalistic characters, notably Joel Miller in The Last of Us and Din Djarin in The Mandalorian. His notable roles also include Oberyn Martell in Game of Thrones and Javier Peña in the Netflix crime series Narcos.",
+  "image": "images/actors/pedro-pascal.jpg",
+  "birthDate": "April 2, 1975, Age: 48",
+  "knownFor": ["The Last of Us", "The Mandalorian", "Game of Thrones", "Narcos", "The Fantastic Four"]
   }
 ]

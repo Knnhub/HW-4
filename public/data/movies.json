@@ -31,14 +31,14 @@
   },
   {
     "id": "black-panther",
-    "image": "images/blackpanter.jpg",
+    "image": "images/black-panther.jpg",
     "rating": 7.3,
     "title": "Black Panther"
   },
 
   {
     "id": "fantastic-four",
-    "image": "https://www.superherohype.com/wp-content/uploads/sites/4/2025/07/download-2025-07-25T143250.610.jpg?w=1024",
+    "image": "images/fantastic-4.avif",
     "rating": 7.5,
     "title": "Fantastic Four"
   },
