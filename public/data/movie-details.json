@@ -10,7 +10,8 @@
     "cast": [
       {"id": "robert-pattinson", "name": "Robert Pattinson", "role": "Batman", "image": "images/actors/robert-pattinson.jpg"},
       {"id": "zoe-kravitz", "name": "Zoë Kravitz", "role": "Catwoman", "image": "images/actors/zoe-kravitz.webp"}
-    ]
+    ],
+    "trailerUrl": "https://www.youtube.com/watch?v=mqqft2x_Aa4"
   },
   {
     "id": "sinners",
@@ -22,7 +23,8 @@
     "director": "Jane Doe",
     "cast": [
       {"id": "michael b jordan", "name": "michael b jordan", "role": "Protagonist", "image": "images/actors/michael b jordan.jpg"}
-    ]
+    ],
+    "trailerUrl": "https://www.youtube.com/watch?v=bKGxHflevuk"
   },
   {
     "id": "deadpool",
@@ -34,7 +36,8 @@
     "director": "Tim Miller",
     "cast": [
       {"id": "ryan-reynolds", "name": "Ryan Reynolds", "role": "Deadpool", "image": "images/actors/ryan-reynolds.jpg"}
-    ]
+    ],
+    "trailerUrl": "https://www.youtube.com/watch?v=73_1biulkYk&t=26s"
   },
   {
     "id": "avengers-infinity-war",
@@ -47,7 +50,8 @@
     "cast": [
       {"id": "robert-downey-jr", "name": "Robert Downey Jr.", "role": "Iron Man", "image": "images/actors/robert-downey-jr.jpg"},
       {"id": "chris-hemsworth", "name": "Chris Hemsworth", "role": "Thor", "image": "images/actors/chris-hemsworth.jpg"}
-    ]
+    ],
+    "trailerUrl": "https://www.youtube.com/watch?v=6ZfuNTqbHE8"
   },
   {
     "id": "interstellar",
@@ -59,7 +63,8 @@
     "director": "Christopher Nolan",
     "cast": [
       {"id": "matthew-mcconaughey", "name": "Matthew McConaughey", "role": "Cooper", "image": "images/actors/matthew-mcconaughey.png"}
-    ]
+    ],
+    "trailerUrl": "https://www.youtube.com/watch?v=zSWdZVtXT7E"
   },
   {
     "id": "black-panther",
@@ -71,7 +76,8 @@
     "director": "Ryan Coogler",
     "cast": [
       {"id": "chadwick-boseman", "name": "Chadwick Boseman", "role": "Black Panther", "image": "images/actors/chadwick-boseman.jpg"}
-    ]
+    ],
+    "trailerUrl": "https://www.youtube.com/watch?v=xjDjIWPwcPU"
   },
 
   {
@@ -84,7 +90,8 @@
     "director": "John Doe",
     "cast": [
       {"id": "pedro-pascal", "name": "pedro pascal", "role": "reed richards", "image": "images/actors/pedro-pascal.jpg"}
-    ]
+    ],
+    "trailerUrl": "https://www.youtube.com/watch?v=18QQWa5MEcs"
   },
   {
     "id": "doctor-strange",
@@ -96,7 +103,8 @@
     "director": "Scott Derrickson",
     "cast": [
       {"id": "benedict-cumberbatch", "name": "Benedict Cumberbatch", "role": "Doctor Strange", "image": "images/actors/benedict-cumberbatch.jpg"}
-    ]
+    ],
+    "trailerUrl": "https://www.youtube.com/watch?v=h7gvFravm4A"
   },
   {
     "id": "superman",
@@ -106,6 +114,7 @@
     "rating": 8.1,
     "genre": ["Action", "Adventure", "Sci-Fi"],
     "director": "",
-    "cast": []
+    "cast": [],
+    "trailerUrl": "https://www.youtube.com/watch?v=uhUht6vAsMY"
   }
 ]   

@@ -5,13 +5,36 @@
       <h1>{{ actor.name }}</h1>
       <p class="actor-bio">{{ actor.bio }}</p>
       <p class="actor-meta">
-        **Born:** {{ actor.birthDate }}<br>
-        **Known For:** {{ actor.knownFor.join(', ') }}
+        <strong>Born:</strong> {{ actor.birthDate }}<br>
+        <strong>Known For:</strong> {{ actor.knownFor.join(', ') }}
       </p>
-      <button class="back-button" (click)="goBack()"><i class="fas fa-arrow-left"></i> Back</button>
+    </div>
+  </div>
+  
+  <div *ngIf="actor" class="actor-detail-container">
+  <div *ngIf="knownForMovies.length > 0" class="known-for-section">
+    
+    <div class="trailer-list">
+      <div *ngFor="let item of knownForMovies" class="trailer-card">
+        <div class="movie-info-tiny">
+          <a [routerLink]="['/movie-details', item.movie.id]">
+            <img *ngIf="item.movie.image" [src]="item.movie.image" [alt]="item.movie.title" class="movie-poster-tiny">
+          </a>
+          <a [routerLink]="['/movie-details', item.movie.id]">
+            <span class="movie-title-tiny">{{ item.movie.title }}</span>
+          </a>
+        </div>
+        <div *ngIf="item.safeTrailerUrl" class="trailer-container-tiny">
+          <iframe [src]="item.safeTrailerUrl" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
     </div>
   </div>
 </div>
+
+
+
+      <button class="back-button" (click)="goBack()"><i class="fas fa-arrow-left"></i> Back</button>
 
 <div *ngIf="!actor" class="loading-message">
   Loading actor details...

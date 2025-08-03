@@ -9,8 +9,12 @@
       <p class="movie-description">{{ movie.description }}</p>
       <div class="action-buttons">
         <button class="watchlist-button"><i class="fas fa-bookmark"></i> Add to Watchlist</button>
-        <button class="trailer-button"><i class="fas fa-play"></i> Watch Trailer</button>
+        </div>
+
+      <div *ngIf="safeTrailerUrl" class="trailer-container">
+        <iframe [src]="safeTrailerUrl" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
+
     </div>
   </div>
 
@@ -25,6 +29,8 @@
     </div>
   </div>
 </div>
+
+<button class="back-button" (click)="goBack()"><i class="fas fa-arrow-left"></i> Back</button>
 
 <div *ngIf="!movie" class="loading-message">
   Loading movie details...
